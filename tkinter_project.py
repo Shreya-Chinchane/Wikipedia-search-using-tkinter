@@ -37,7 +37,7 @@ def clear():
 lang_dict=googletrans.LANGUAGES
  
 root=Tk()#created object of Tk class
-root.geometry('700x670+200+10')#700 is width,670 is height, 200 distance from x axis,10 is distance from y axis
+root.geometry('700x670+200+10')
 root.title('My Wikipedia')
 root.config(bg='skyblue3')
 
@@ -77,4 +77,4 @@ clear_button=Button(buttonFrame, text='CLEAR', font=('helvetica',20,'bold'),fg='
 clear_button.grid(row=0, column=2, padx=20)
 
 
-root.mainloop() #method of that Tk class...so that we can see that window continuously on a loop
+root.mainloop() 
